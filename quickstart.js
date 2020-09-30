@@ -6,7 +6,7 @@
   var volumeIndicators = document.getElementById('volume-indicators');
 
   log('Requesting Capability Token...');
-  $.getJSON('https://emerald-goshawk-7365.twil.io/capability-token')
+  $.getJSON('https://emerald-goshawk-7365.twil.io/client-voice')
   //Paste URL HERE
     .done(function (data) {
       log('Got a token.');
